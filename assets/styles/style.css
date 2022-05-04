@@ -1,0 +1,485 @@
+body{
+    background-color: rgb(22, 199, 131);
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+   width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+header{
+    background-color: rgb(22, 199, 131);
+    padding: 20px;
+    border-bottom:solid 1px rgb(228, 228, 228);
+    
+}
+header div figure img{
+    width: 100%;
+    max-width: 120px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+main{}
+
+.secaoUsuario{
+    color:white;
+    padding: 60px 0 30px;
+   
+}
+.usuario{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 50px; 
+}
+.usuarioNome{
+    display: flex;
+    align-items: center;
+}
+.presChat{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.presChat img{
+    width: 100%;
+    max-width: 30px;
+}
+
+.usuario p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.usuario p strong{
+    display: block;
+    font-weight: bold;
+}
+
+.saldo{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px 30px;
+    border-top: solid 1px rgb(0, 0, 0, .40);
+}
+.saldo .p1{
+   
+    font-size: 18px;
+    line-height: 20px; /*altura da linha*/
+    display: block;
+}
+
+.saldo .d1{
+      
+}
+.saldo  .d2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+ }
+.d2 img{
+     width: 100%;
+     max-width: 50px;
+     margin-left: 10px;
+ }
+ .d2 .p2{
+     font-size: 18px;
+     font-weight: bold;
+ }
+.saldo div p strong{
+    display: block;
+    font-weight: bold;
+}
+.saldo div img{
+    width: 100%;
+    max-width: 25px;
+    
+}
+.saldo button{
+    padding: 10px 60px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    border:none;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.funcoes ul{
+    display: flex;
+    justify-content: space-between;
+}
+/*LISTA*/ 
+.funcoes ul li{
+    width: 120px;
+    height: 100px;
+    background-color: rgb(11, 122, 80);
+    padding: 40px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.funcoes ul li img{
+    width: 100%;
+    max-width: 40px;
+}
+.funcoes ul li p{
+    max-width: 90px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+/*DIV GERAL*/
+
+.divGeral{
+    min-height: 500px;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 10px solid rgba(66, 66, 66, 0.2);
+}
+/*vai tirar o display de todas as divs*/
+.divGeral .container .teste{
+    display: none;
+}
+/*a div q tiver essa classe vai ser mostrada*/
+.divGeral .container div.mostrarDiv{
+    display: block;
+}
+
+.div1{
+    
+    padding: 30px 0;
+    margin: 0px 20px 0px 20px;
+}
+.div1 p{
+    font-size: 25px;
+    padding: 30px 60px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    
+}
+.div1 img{
+    width: 100%;
+    margin: 30px 0 90px;
+}
+
+.div2{
+   
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2 img{
+    width: 100%;
+    max-width: 200px;
+    margin-top: 50px;
+}
+
+.div2 p{
+    margin: 20px 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+} 
+
+.div2 .button1{
+    background-color: rgb(22, 199, 131);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 150px;
+}
+
+.div2 a{
+    color:black;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 30px;  
+}
+.div3{
+    height: 100%;
+    margin: 0px 20px 0px 20px;
+}
+
+.div3 img{
+    width: 100%;
+    max-width: 200px;
+    margin: 50px 0 50px;
+}
+
+.div3 div{
+    
+    max-width: 400px;
+    height: 80px;
+    padding: 20px 40px 20px 10px;
+    border: 1px solid rgb(179, 179, 179);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;  
+}
+.div3 div img{
+    width: 100%;
+    max-width: 60px;
+    margin-top: 50px;
+}
+.div3 div p{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.div4{
+    
+    margin: 0px 20px 40px 20px;
+}
+.div4 img{
+    width: 100%;
+    max-width: 120px; 
+    margin: 50px 0px 30px 0px;
+}
+.div4 h2{
+    font-size: 18px;
+    font-weight:bold;
+    margin: 0px 0px 30px 0px
+}
+.div4 p{
+    width: 460px;
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;   
+}
+.div4 input{
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px 0px 20px 50px;
+    font-size: 18px;
+}
+
+.div5{
+    
+    margin-bottom: 50px;
+    margin: 0px 0px 40px 20px;
+}
+
+.div5 img{
+    width: 100%;
+    max-width: 120px;
+    margin: 50px 0px 0px 0px;
+}
+
+.div5 h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+}
+
+.div5 p{
+    font-size: 18px;
+    margin: 0px 0px 30px 0px;
+}
+
+.div5 .div5-1{
+    width: 450px;
+    padding: 0px 120px 0px 0px;
+    margin: 30px 0px 30px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(179, 179, 179);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div5 .div5-1 img{
+    width: 100%;
+    height: 100%;
+    max-width: 60px;
+    margin: 20px 20px ;
+}
+.div5 .div5-1 div{
+    margin: 0px 0px 0px 30px;
+    padding: 0;
+    height: 60px;
+}
+
+.div5 .div5-1 div .p1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.div5 .div5-1 div .p2{
+    font-size: 18px;
+}
+
+ 
+
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul{
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul li{
+    
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+    
+}
+footer ul li a{
+    
+    text-decoration: none;
+    color:black;
+}
+footer ul li a .icones1{
+    
+    height: 100%;
+    max-height: 40px;
+}
+footer ul li a p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px 50px 0px;
+}
+
+.pagarImg{
+    width: 100%;
+    max-width:100px ;
+    height: 100%;
+    max-height: 100px;
+    transform: translateY(-50px);
+}
+
+.pagarImg img{
+    width: 100%;
+    max-width: 100px;
+}
+.pagarImg a p{
+    margin-top: 10px;
+}
+
+/*EFEITO HOVER NOS ITENS DA LISTA*/
+
+.funcoes ul li:hover{
+    background-color: white;
+    color:rgb(11, 122, 80);
+}
+/*QR code*/
+.li1 figure{
+    background-image: url(../img/qrcode.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 40px;
+    width: 40px;
+
+}
+.li1:hover figure{
+    background-image: url(../img/qrcode-verde.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+
+.li1 figure img{
+    opacity: 0;
+}
+/*PIX*/
+.li2 figure{
+    background-image: url(../img/pix.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 40px;
+    width: 40px;;
+
+}
+.li2:hover figure{
+    background-image: url(../img/pix-verde.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+.li2 figure img{
+    opacity: 0;
+}
+/*boleto*/
+.li3 figure{
+    background-image: url(../img/codigo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 40px;
+    width: 53px;
+
+}
+.li3:hover figure{
+    background-image: url(../img/boleto-verde.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 40px;
+    width: 53px;
+}
+.li3 figure img{
+    opacity: 0;
+}
+/*cobrar*/
+.li4 figure{
+    background-image: url(../img/cobrar-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 45px;
+    width: 55px;
+
+}
+.li4:hover figure{
+    background-image: url(../img/cobrar-verde.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 45px;
+    width: 55px;
+}
+.li4 figure img{
+    opacity: 0;
+}
